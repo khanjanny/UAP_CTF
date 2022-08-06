@@ -11,7 +11,7 @@ Steganography
 
 	Don't ever forget about [`steghide`][steghide]! This tool can use a password list like `rockyou.txt` with steghide. SOME IMAGES CAN HAVE MULTIPLE FILED ENCODED WITH MULTIPLE PASSWORDS.
 
-	![demo](https://github.com/khanjanny/UAP_CTF/tree/main/img/stegcracker.gif) 
+	![demo](https://raw.githubusercontent.com/khanjanny/UAP_CTF/main/img/stegcracker.gif) 
 
 
 * [Steganography Online](http://stylesuxx.github.io/steganography/)
