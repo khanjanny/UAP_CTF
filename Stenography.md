@@ -31,16 +31,19 @@ Steganography
 
 	![img/steg1.png](img/steg1.png)
 
+
 * [StegSeek](https://github.com/RickdeJager/stegseek)]
 
 	This is similar to `stegcracker`, but _much_ faster. Can also extract metadata without a password list.
 
 	![demo](https://raw.githubusercontent.com/khanjanny/UAP_CTF/main/img/seed.gif)
 
+
 * [`steg_brute.py`](https://github.com/Va5c0/Steghide-Brute-Force-Tool)
 
 	This is similar to `stegcracker` above.
 	Execute a brute force attack with Steghide to file with hide information and password established.
+
 
 * [openstego](https://www.openstego.com/)
 
@@ -57,13 +60,16 @@ Steganography
 	sudo apt install steghide
 	```
 
+
 * [stepic](http://domnit.org/stepic/doc/)
 
 	Python image steganography. Stepic hides arbitrary data inside PIL images. Download it here: http://domnit.org/stepic/doc/
 
+
 * [Digital Invisible Ink Stego Tool](http://diit.sourceforge.net/)
 
 	A Java steganography tool that can hide any sort of file inside a digital image (regarding that the message will fit, and the image is 24 bit colour)
+
 
 * [ImageHide](https://www.softpedia.com/get/Security/Encrypting/ImageHide.shtml)
 
@@ -82,6 +88,7 @@ Steganography
 	gem install zsteg
 	```
 
+
 * [jsteg](https://github.com/lukechampine/jsteg)
 
     Another command-line tool to use against JPEG images. [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg) Handy for Hackerrank Codefest CTF 2018.
@@ -90,13 +97,16 @@ Steganography
 	go get lukechampine.com/jsteg
 	```
 
+
 * [Jstego](https://sourceforge.net/projects/jstego/)
 
     A GUI tool for JPG steganography. [https://sourceforge.net/projects/jstego/](https://sourceforge.net/projects/jstego/) It is a [Java][Java] [JAR] file similar to stegsolve.jar
 
+
 * [snow](http://www.darkside.com.au/snow/)
 
 	A command-line tool for whitespace steganography (see above).
+
 
 * [SONIC Visualizer](https://www.sonicvisualiser.org/)
 
@@ -110,6 +120,12 @@ Steganography
 	Being a Windows-specific tool, it is often used in CTFs to hide flags inside audio files. 
 	Take a look if the challenge has some odd strings which might resemble passwords.
 
+* [StegoMagic](http://www.softpedia.com/get/Security/Encrypting/StegoMagic.shtml)
+
+	This is a pretty simple and straightforward to use software using which you can easily hide any file inside any file. It can be most of any combination.
+
+	![img/StegoMagic.webp](img/StegoMagic.webp)
+
 
 * [zbarimg](http://zbar.sourceforge.net/)
 
@@ -120,12 +136,12 @@ Steganography
 	```
 
 
-* Unicode Steganography / Zero-Width Space Characters
+* [Unicode Steganography / Zero-Width Space Characters](https://330k.github.io/misc_tools/unicode_steganography.html)
 
 	Some text that may be trying to hide something, in a seemingly innocent way, like "Hmm, there may be something hiding here..." may include zero-width characters. This is a utility that might help: [https://330k.github.io/misc_tools/unicode_steganography.html](https://330k.github.io/misc_tools/unicode_steganography.html) ... Other options are just gross find and replace operations in Python IDLE.
 
 
-* Online LSB Tools
+* [Online LSB Tools](https://stylesuxx.github.io/steganography/)
 
 	There are many online LSB tools that work in different ways. If you are given a file that you know is part of a Least Significant Bit challenge, try these tools:
 
@@ -133,7 +149,7 @@ Steganography
 	[https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 
 
-* Morse Code
+* [Morse Code](https://www.lexilogos.com/keyboard/morse.htm)
 
 	Always test for this if you are seeing two distinct values... _it may not always be binary!_ Online decoders like so: [https://morsecode.scphillips.com/translator.html](https://morsecode.scphillips.com/translator.html). If you need to be case-sensistive or include a bit more stuff like numbers and punctuation, use this code: [https://gist.github.com/JohnHammond/961acabfd85a8715220fa79492b25368](https://gist.github.com/JohnHammond/961acabfd85a8715220fa79492b25368)
 
@@ -145,14 +161,14 @@ Steganography
 	Tabs and spaces could be representing 1's and 0's and treating them as a binary message... or, they could be whitespace done with [`snow`][snow] or an esoteric programming language interpreter: [https://tio.run/#whitespace](https://tio.run/#whitespace)
 
 
-* Audio Speed Change (also change pitch)
+* [Audio Speed Change (also change pitch)](http://www.mplayerhq.hu/design7/news.html)
 
 	```
 	mplayer -af scaletempo -speed 64 flag.mp3
 	```
 
 
-* Extract Thumbnail (data is covered in original image)
+* [Extract Thumbnail (data is covered in original image)](https://exiftool.org/)
 
 	If you have an image where the data you need is covered, try viewing the thumbnail:
 
@@ -161,7 +177,7 @@ Steganography
 	```
 
 
-* [Detect DTMF Tones]
+* [Detect DTMF Tones](https://unframework.github.io/dtmf-detect/)
 
 	Audio frequencies common to a phone button, DTMF: [https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling).
 
@@ -173,15 +189,10 @@ Steganography
 ![https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
 
-* [QR code]
+* [QR code](https://zxing.org/w/decode.jspx)
 
 	A small square "barcode" image that holds data.
 	Online Solver ![zxing](https://zxing.org/w/decode.jspx)
-
-
-* Punctuation marks `!`, `.` and `?`
-
-	I have seen some challenges use just the end of `.` or `?` or `!` to represent the [Ook](http://esolangs.org/wiki/ook!) esoteric programming language. Don't forget that is a thing!
 
 
 * DNA Codes
