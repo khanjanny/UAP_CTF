@@ -18,9 +18,13 @@ Steganography
 
 	A tool often used in CTFs for encoding messages into images.
 
+	    ![img/dna_codes.png](img/steg1.png)
+
 * [StegSeek](https://github.com/RickdeJager/stegseek)]
 
 	This is similar to `stegcracker`, but _much_ faster. Can also extract metadata without a password list.
+
+	![demo](https://raw.githubusercontent.com/khanjanny/UAP_CTF/main/img/seed.gif)
 
 * [`steg_brute.py`](https://github.com/Va5c0/Steghide-Brute-Force-Tool)
 
