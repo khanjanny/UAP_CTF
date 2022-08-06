@@ -88,7 +88,7 @@ Steganography
 	go get lukechampine.com/jsteg
 	```
 
-* [Jstego][Jstego]
+* [Jstego](https://sourceforge.net/projects/jstego/)
 
     A GUI tool for JPG steganography. [https://sourceforge.net/projects/jstego/](https://sourceforge.net/projects/jstego/) It is a [Java][Java] [JAR] file similar to stegsolve.jar
 
@@ -147,15 +147,6 @@ Steganography
 	mplayer -af scaletempo -speed 64 flag.mp3
 	```
 
-* DNA Codes
-
-    When given a sequence with only A, C, G, T , there is an online mapping for these. Try this:
-
-    ![img/dna_codes.png](img/dna_codes.png)
-
-    ![img/genome_coding.jpg](img/genome-coding.jpg)
-
-
 * Extract Thumbnail (data is covered in original image)
 
 	If you have an image where the data you need is covered, try viewing the thumbnail:
@@ -174,14 +165,21 @@ Steganography
 
 ![https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
-* [`hipshot`][hipshot]
-
-	A [Python] module to compress a video into a single standalone image, simulating a long-exposure photograph. Was used to steal a [QR code] visible in a video, displayed through "Star Wars" style text motion.
 
 * [QR code]
 
 	A small square "barcode" image that holds data.
+	Online Solver ![zxing](https://zxing.org/w/decode.jspx)
+
 
 * Punctuation marks `!`, `.` and `?`
 
 	I have seen some challenges use just the end of `.` or `?` or `!` to represent the [Ook](http://esolangs.org/wiki/ook!) esoteric programming language. Don't forget that is a thing!
+
+* DNA Codes
+
+    When given a sequence with only A, C, G, T , there is an online mapping for these. Try this:
+
+    ![img/dna_codes.png](img/dna_codes.png)
+
+    ![img/genome_coding.jpg](img/genome-coding.jpg)
