@@ -38,23 +38,23 @@ Steganography
 	![img/openstego.png](img/openstego.png)
 
 
-* [`Stegsolve.jar`][Stegsolve.jar]
+* [Stegsolve.jar](http://www.caesum.com/handbook/Stegsolve.jar)
 
-	A [Java][Java] [`.JAR`][JAR] tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
+	A Java tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
 
 * [`steghide`][steghide]
 
+	sudo apt install steghide
+
 	A command-line tool typically used alongside a password or key, that could be uncovered some other way when solving a challenge.
 
-* [`stepic`](http://domnit.org/stepic/doc/)
+* [stepic](http://domnit.org/stepic/doc/)
 
 	Python image steganography. Stepic hides arbitrary data inside PIL images. Download it here: http://domnit.org/stepic/doc/
 
 * [Digital Invisible Ink Stego Tool](http://diit.sourceforge.net/)
 
 	A Java steganography tool that can hide any sort of file inside a digital image (regarding that the message will fit, and the image is 24 bit colour)
-
-# WHEN GIVEN A FILE TO WORK WITH, DO NOT FORGET TO RUN THIS STEGHIDE WITH AN EMPTY PASSWORD!
 
 * [ImageHide](https://www.softpedia.com/get/Security/Encrypting/ImageHide.shtml)
 
@@ -79,11 +79,12 @@ Steganography
 
 	[https://github.com/DominicBreuker/stego-toolkit](https://github.com/DominicBreuker/stego-toolkit)
 
-* [`zsteg`][zsteg]
+* [zsteg][(https://github.com/zed-0xff/zsteg)]
 
+	sudo apt install zsteg
 	Command-line tool for use against Least Significant Bit steganography... unfortunately only works against PNG and BMP images.
 
-* [`jsteg`][jsteg]
+* [jsteg](https://github.com/lukechampine/jsteg)
 
     Another command-line tool to use against JPEG images. [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg) Handy for Hackerrank Codefest CTF 2018.
 
