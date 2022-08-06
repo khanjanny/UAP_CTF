@@ -18,7 +18,7 @@ Steganography
 
 	A tool often used in CTFs for encoding messages into images.
 
-	    ![img/dna_codes.png](img/steg1.png)
+	    ![img/steg1.png](img/steg1.png)
 
 * [StegSeek](https://github.com/RickdeJager/stegseek)]
 
