@@ -7,6 +7,17 @@ UAP-CTF
 Steganography
 ---------------------
 
+* [Stegsolve.jar](http://www.caesum.com/handbook/Stegsolve.jar)
+
+	A Java tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
+
+	```
+	wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+	```
+
+	![img/stegsolve.png](img/stegsolve.png)
+
+
 * [StegCracker](https://github.com/Paradoxis/StegCracker)
 
 	Don't ever forget about [`steghide`][steghide]! This tool can use a password list like `rockyou.txt` with steghide. SOME IMAGES CAN HAVE MULTIPLE FILED ENCODED WITH MULTIPLE PASSWORDS.
@@ -36,15 +47,6 @@ Steganography
 	A [Java][Java] [`.JAR`][JAR] tool, that can extract data from an image. A good tool to use on guessing challenges, when you don't have any other leads. We found this tool after the [Misc50](http://0xahmed.ninja/nullcon-hackim18-ctf-writeups/) challenge from [HackIM 2018](https://ctftime.org/event/566)
 
 	![img/openstego.png](img/openstego.png)
-
-
-* [Stegsolve.jar](http://www.caesum.com/handbook/Stegsolve.jar)
-
-	A Java tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
-
-	```
-	wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
-	```
 
 
 * [`steghide`](http://steghide.sourceforge.net/)
