@@ -42,18 +42,18 @@ Steganography
 
 	A Java tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
 
-```
+	```
 	wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
-```
+	```
 
 
 * [`steghide`](http://steghide.sourceforge.net/)
 
 	A command-line tool typically used alongside a password or key, that could be uncovered some other way when solving a challenge.
 
-```
+	```
 	sudo apt install steghide
-```
+	```
 
 * [stepic](http://domnit.org/stepic/doc/)
 
@@ -76,17 +76,17 @@ Steganography
 
 	Command-line tool for use against Least Significant Bit steganography... unfortunately only works against PNG and BMP images.
 
-```
+	```
 	gem install zsteg
-```
+	```
 
 * [jsteg](https://github.com/lukechampine/jsteg)
 
     Another command-line tool to use against JPEG images. [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg) Handy for Hackerrank Codefest CTF 2018.
 
-```
+	```
 	go get lukechampine.com/jsteg
-```
+	```
 
 * [Jstego][Jstego]
 
@@ -111,9 +111,9 @@ Steganography
 
 	A command-line tool to quickly scan multiple forms of barcodes, [QR codes] included. Installed like so on a typical [Ubuntu] image:
 
-```
-sudo apt install zbar-tools
-```
+	```
+	sudo apt install zbar-tools
+	```
 
 
 * Unicode Steganography / Zero-Width Space Characters
@@ -143,15 +143,16 @@ sudo apt install zbar-tools
 
 * Audio Speed Change (also change pitch)
 
-```
-mplayer -af scaletempo -speed 64 flag.mp3
-```
+	```
+	mplayer -af scaletempo -speed 64 flag.mp3
+	```
 
 * DNA Codes
 
     When given a sequence with only A, C, G, T , there is an online mapping for these. Try this:
 
     ![img/dna_codes.png](img/dna_codes.png)
+
     ![img/genome_coding.jpg](img/genome-coding.jpg)
 
 
@@ -159,9 +160,9 @@ mplayer -af scaletempo -speed 64 flag.mp3
 
 	If you have an image where the data you need is covered, try viewing the thumbnail:
 
-```
-exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
-```
+	```
+	exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
+	```
 
 * [Detect DTMF Tones]
 
