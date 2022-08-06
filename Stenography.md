@@ -29,10 +29,14 @@ Steganography
 * [`steg_brute.py`](https://github.com/Va5c0/Steghide-Brute-Force-Tool)
 
 	This is similar to `stegcracker` above.
+	Execute a brute force attack with Steghide to file with hide information and password established.
 
 * [openstego](https://www.openstego.com/)
 
 	A [Java][Java] [`.JAR`][JAR] tool, that can extract data from an image. A good tool to use on guessing challenges, when you don't have any other leads. We found this tool after the [Misc50](http://0xahmed.ninja/nullcon-hackim18-ctf-writeups/) challenge from [HackIM 2018](https://ctftime.org/event/566)
+
+	![img/openstego.png](img/openstego.png)
+
 
 * [`Stegsolve.jar`][Stegsolve.jar]
 
