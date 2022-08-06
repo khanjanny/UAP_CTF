@@ -7,15 +7,18 @@ UAP-CTF
 Steganography
 ---------------------
 
-* [StegCracker][StegCracker]
+* [StegCracker](https://github.com/Paradoxis/StegCracker)
 
 	Don't ever forget about [`steghide`][steghide]! This tool can use a password list like `rockyou.txt` with steghide. SOME IMAGES CAN HAVE MULTIPLE FILED ENCODED WITH MULTIPLE PASSWORDS.
+
+	![demo](https://github.com/khanjanny/UAP_CTF/tree/main/img/stegcracker.gif) 
+
 
 * [Steganography Online](http://stylesuxx.github.io/steganography/)
 
 	A tool often used in CTFs for encoding messages into images.
 
-* [StegSeek][StegSeek]
+* [StegSeek](https://github.com/RickdeJager/stegseek)]
 
 	This is similar to `stegcracker`, but _much_ faster. Can also extract metadata without a password list.
 
@@ -23,7 +26,7 @@ Steganography
 
 	This is similar to `stegcracker` above.
 
-* [`openstego`][OpenStego]
+* [openstego](https://www.openstego.com/)
 
 	A [Java][Java] [`.JAR`][JAR] tool, that can extract data from an image. A good tool to use on guessing challenges, when you don't have any other leads. We found this tool after the [Misc50](http://0xahmed.ninja/nullcon-hackim18-ctf-writeups/) challenge from [HackIM 2018](https://ctftime.org/event/566)
 
