@@ -107,9 +107,11 @@ Steganography
 
 * [XIAO Steganography](https://xiao-steganography.en.softonic.com/)
 
-	Being a Windows-specific tool, it is often used in CTFs to hide flags inside audio files. __Take a look if the challenge has some odd strings which might resemble passwords.__
+	Being a Windows-specific tool, it is often used in CTFs to hide flags inside audio files. 
+	Take a look if the challenge has some odd strings which might resemble passwords.
 
-* [`zbarimg`][zbarimg]
+
+* [zbarimg](http://zbar.sourceforge.net/)
 
 	A command-line tool to quickly scan multiple forms of barcodes, [QR codes] included. Installed like so on a typical [Ubuntu] image:
 
@@ -122,6 +124,7 @@ Steganography
 
 	Some text that may be trying to hide something, in a seemingly innocent way, like "Hmm, there may be something hiding here..." may include zero-width characters. This is a utility that might help: [https://330k.github.io/misc_tools/unicode_steganography.html](https://330k.github.io/misc_tools/unicode_steganography.html) ... Other options are just gross find and replace operations in Python IDLE.
 
+
 * Online LSB Tools
 
 	There are many online LSB tools that work in different ways. If you are given a file that you know is part of a Least Significant Bit challenge, try these tools:
@@ -129,9 +132,6 @@ Steganography
 	[https://manytools.org/hacker-tools/steganography-encode-text-into-image/](https://manytools.org/hacker-tools/steganography-encode-text-into-image/) Only supports PNG
 	[https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 
-* Other stego tools:
-
-	[https://github.com/DominicBreuker/stego-toolkit](https://github.com/DominicBreuker/stego-toolkit)
 
 * Morse Code
 
@@ -139,15 +139,18 @@ Steganography
 
 	If you find Morsecode in the "international written form", like "dah-dit-dit-dah" etcetera, you can use this code: [https://gist.github.com/JohnHammond/7d3ddb167fa56f139dc4419091237b51](https://gist.github.com/JohnHammond/7d3ddb167fa56f139dc4419091237b51) ... which was carved out of this resource: [https://morsecode.scphillips.com/morse.html](https://morsecode.scphillips.com/morse.html)
 
+
 * [Whitespace](https://tio.run/#whitespace)
 
 	Tabs and spaces could be representing 1's and 0's and treating them as a binary message... or, they could be whitespace done with [`snow`][snow] or an esoteric programming language interpreter: [https://tio.run/#whitespace](https://tio.run/#whitespace)
+
 
 * Audio Speed Change (also change pitch)
 
 	```
 	mplayer -af scaletempo -speed 64 flag.mp3
 	```
+
 
 * Extract Thumbnail (data is covered in original image)
 
@@ -157,9 +160,11 @@ Steganography
 	exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
 	```
 
+
 * [Detect DTMF Tones]
 
 	Audio frequencies common to a phone button, DTMF: [https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling).
+
 
 * Phone-Keypad
 
@@ -178,6 +183,7 @@ Steganography
 
 	I have seen some challenges use just the end of `.` or `?` or `!` to represent the [Ook](http://esolangs.org/wiki/ook!) esoteric programming language. Don't forget that is a thing!
 
+
 * DNA Codes
 
     When given a sequence with only A, C, G, T , there is an online mapping for these. Try this:
@@ -185,3 +191,8 @@ Steganography
     ![img/dna_codes.png](img/dna_codes.png)
 
     ![img/genome_coding.jpg](img/genome-coding.jpg)
+
+
+* Other stego tools:
+
+	[https://github.com/DominicBreuker/stego-toolkit](https://github.com/DominicBreuker/stego-toolkit)
