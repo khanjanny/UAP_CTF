@@ -42,11 +42,18 @@ Steganography
 
 	A Java tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
 
+```
+	wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+```
+
+
 * [`steghide`](http://steghide.sourceforge.net/)
 
-	sudo apt install steghide
-
 	A command-line tool typically used alongside a password or key, that could be uncovered some other way when solving a challenge.
+
+```
+	sudo apt install steghide
+```
 
 * [stepic](http://domnit.org/stepic/doc/)
 
@@ -67,24 +74,34 @@ Steganography
 
 * [zsteg][(https://github.com/zed-0xff/zsteg)]
 
-	sudo apt install zsteg
 	Command-line tool for use against Least Significant Bit steganography... unfortunately only works against PNG and BMP images.
+
+```
+	gem install zsteg
+```
 
 * [jsteg](https://github.com/lukechampine/jsteg)
 
     Another command-line tool to use against JPEG images. [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg) Handy for Hackerrank Codefest CTF 2018.
 
+```
+	go get lukechampine.com/jsteg
+```
+
 * [Jstego][Jstego]
 
     A GUI tool for JPG steganography. [https://sourceforge.net/projects/jstego/](https://sourceforge.net/projects/jstego/) It is a [Java][Java] [JAR] file similar to stegsolve.jar
 
-* [`snow`][snow]
+* [snow](http://www.darkside.com.au/snow/)
 
 	A command-line tool for whitespace steganography (see above).
 
-* SONIC Visualizer (audio spectrum)
+* [SONIC Visualizer](https://www.sonicvisualiser.org/)
 
 	Some classic challenges use an audio file to hide a flag or other sensitive stuff. SONIC visualizer easily shows you [spectrogram](https://en.wikipedia.org/wiki/Spectrogram). __If it sounds like there is random bleeps and bloops in the sound, try this tactic!__
+
+    ![img/sonic.png](img/sonic.png)
+
 
 * [XIAO Steganography](https://xiao-steganography.en.softonic.com/)
 
