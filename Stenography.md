@@ -42,7 +42,7 @@ Steganography
 
 	A Java tool, that will open an image and let you as the user arrow through different renditions of the image (viewing color channels, inverted colors, and more). The tool is surprisingly useful.
 
-* [`steghide`][steghide]
+* [`steghide`](http://steghide.sourceforge.net/)
 
 	sudo apt install steghide
 
@@ -64,6 +64,41 @@ Steganography
 
 	Another steganography tool. A simple command-line tool and super easy to use -- definitely one to at least try.
 
+
+* [zsteg][(https://github.com/zed-0xff/zsteg)]
+
+	sudo apt install zsteg
+	Command-line tool for use against Least Significant Bit steganography... unfortunately only works against PNG and BMP images.
+
+* [jsteg](https://github.com/lukechampine/jsteg)
+
+    Another command-line tool to use against JPEG images. [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg) Handy for Hackerrank Codefest CTF 2018.
+
+* [Jstego][Jstego]
+
+    A GUI tool for JPG steganography. [https://sourceforge.net/projects/jstego/](https://sourceforge.net/projects/jstego/) It is a [Java][Java] [JAR] file similar to stegsolve.jar
+
+* [`snow`][snow]
+
+	A command-line tool for whitespace steganography (see above).
+
+* SONIC Visualizer (audio spectrum)
+
+	Some classic challenges use an audio file to hide a flag or other sensitive stuff. SONIC visualizer easily shows you [spectrogram](https://en.wikipedia.org/wiki/Spectrogram). __If it sounds like there is random bleeps and bloops in the sound, try this tactic!__
+
+* [XIAO Steganography](https://xiao-steganography.en.softonic.com/)
+
+	Being a Windows-specific tool, it is often used in CTFs to hide flags inside audio files. __Take a look if the challenge has some odd strings which might resemble passwords.__
+
+* [`zbarimg`][zbarimg]
+
+	A command-line tool to quickly scan multiple forms of barcodes, [QR codes] included. Installed like so on a typical [Ubuntu] image:
+
+```
+sudo apt install zbar-tools
+```
+
+
 * Unicode Steganography / Zero-Width Space Characters
 
 	Some text that may be trying to hide something, in a seemingly innocent way, like "Hmm, there may be something hiding here..." may include zero-width characters. This is a utility that might help: [https://330k.github.io/misc_tools/unicode_steganography.html](https://330k.github.io/misc_tools/unicode_steganography.html) ... Other options are just gross find and replace operations in Python IDLE.
@@ -79,26 +114,13 @@ Steganography
 
 	[https://github.com/DominicBreuker/stego-toolkit](https://github.com/DominicBreuker/stego-toolkit)
 
-* [zsteg][(https://github.com/zed-0xff/zsteg)]
-
-	sudo apt install zsteg
-	Command-line tool for use against Least Significant Bit steganography... unfortunately only works against PNG and BMP images.
-
-* [jsteg](https://github.com/lukechampine/jsteg)
-
-    Another command-line tool to use against JPEG images. [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg) Handy for Hackerrank Codefest CTF 2018.
-
-* [Jstego][Jstego]
-
-    A GUI tool for JPG steganography. [https://sourceforge.net/projects/jstego/](https://sourceforge.net/projects/jstego/) It is a [Java][Java] [JAR] file similar to stegsolve.jar
-
 * Morse Code
 
 	Always test for this if you are seeing two distinct values... _it may not always be binary!_ Online decoders like so: [https://morsecode.scphillips.com/translator.html](https://morsecode.scphillips.com/translator.html). If you need to be case-sensistive or include a bit more stuff like numbers and punctuation, use this code: [https://gist.github.com/JohnHammond/961acabfd85a8715220fa79492b25368](https://gist.github.com/JohnHammond/961acabfd85a8715220fa79492b25368)
 
 	If you find Morsecode in the "international written form", like "dah-dit-dit-dah" etcetera, you can use this code: [https://gist.github.com/JohnHammond/7d3ddb167fa56f139dc4419091237b51](https://gist.github.com/JohnHammond/7d3ddb167fa56f139dc4419091237b51) ... which was carved out of this resource: [https://morsecode.scphillips.com/morse.html](https://morsecode.scphillips.com/morse.html)
 
-* Whitespace
+* [Whitespace](https://tio.run/#whitespace)
 
 	Tabs and spaces could be representing 1's and 0's and treating them as a binary message... or, they could be whitespace done with [`snow`][snow] or an esoteric programming language interpreter: [https://tio.run/#whitespace](https://tio.run/#whitespace)
 
@@ -124,19 +146,6 @@ mplayer -af scaletempo -speed 64 flag.mp3
 exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
 ```
 
-* [`snow`][snow]
-
-	A command-line tool for whitespace steganography (see above).
-
-* SONIC Visualizer (audio spectrum)
-
-	Some classic challenges use an audio file to hide a flag or other sensitive stuff. SONIC visualizer easily shows you [spectrogram](https://en.wikipedia.org/wiki/Spectrogram). __If it sounds like there is random bleeps and bloops in the sound, try this tactic!__
-
-* [XIAO Steganography](https://xiao-steganography.en.softonic.com/)
-
-	Being a Windows-specific tool, it is often used in CTFs to hide flags inside audio files. __Take a look if the challenge has some odd strings which might resemble passwords.__
-
-
 * [Detect DTMF Tones]
 
 	Audio frequencies common to a phone button, DTMF: [https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling).
@@ -154,14 +163,6 @@ exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
 * [QR code]
 
 	A small square "barcode" image that holds data.
-
-* [`zbarimg`][zbarimg]
-
-	A command-line tool to quickly scan multiple forms of barcodes, [QR codes] included. Installed like so on a typical [Ubuntu] image:
-
-```
-sudo apt install zbar-tools
-```
 
 * Punctuation marks `!`, `.` and `?`
 
